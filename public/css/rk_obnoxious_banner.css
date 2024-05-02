@@ -1,0 +1,21 @@
+#obnoxious-banner {
+  display: grid;
+  overflow: clip;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+#obnoxious-banner .banner-text {
+  animation: 100s linear infinite marqui;
+  color: #000;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+  transform: translate(100%);
+}
+
+@keyframes marqui {
+  100% {
+    transform: translate(-50%);
+  }
+}
